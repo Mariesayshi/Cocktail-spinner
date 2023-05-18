@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0"
+    />
+    <title>Halloween Spinner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <main>
+        <div id="spinner_recipe_wrapper">
+          <div id="spinner_wrapper">
+            <div id="spinner">
+              <img id="spinner_svg" src="./assets/slot-machine.svg" />
+              <div id="spinner_logo_wrapper">
+                <h1 class="spinner_logo">Halloween</h1>
+                <h1 class="spinner_logo">Coctail Recipes</h1>
+              </div>
+              <div id="spinner_screen_wrapper">
+                <div id="spinner_screen"></div>
+              </div>
+              <div id="slot_spin_wrapper">
+                <div id="slot_spin_button">
+                  <div id="bot"></div>
+                  <div id="mid"></div>
+                  <div id="top"></div>
+                </div>
+                <div id="slot_spin_text_wrapper">
+                  <h3 id="slot_spin_text">CLICK TO SPIN!</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="recipe_wrapper">
+            <h1 id="spin_for_recipe">Spin for a recipe</h1>
+            <div id="recipe">
+              <h1 id="recipe_title"></h1>
+              <p class="description" id="recipe_description"></p>
+              <h3 id="ingredients_directions_title">
+                Ingredients & Directions:
+              </h3>
+              <ul id="ingredients_list"></ul>
+              <p class="description" id="directions"></p>
+              <a id="spin_again_button_link" href="#container"
+                ><button id="spin_again_button">SPIN AGAIN</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div id="social_media_wrapper">
+          <h3 id="social_media_text">Share with friends!</h3>
+          <div id="social_media_icons">
+            <div class="social_media_icon">
+              <a href="#">
+                <svg
+                  id="logo-facebook"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="37.297"
+                  height="37.066"
+                  viewBox="0 0 37.297 37.066"
+                >
+                  <path
+                    id="Path_12"
+                    data-name="Path 12"
+                    d="M566.684,1034.025a18.648,18.648,0,1,0-21.564,18.42v-13.032h-4.733v-5.389h4.733v-4.11c0-4.674,2.784-7.254,7.045-7.254a28.656,28.656,0,0,1,4.175.362v4.591h-2.352a2.7,2.7,0,0,0-3.026,2.314,2.8,2.8,0,0,0-.013.6v3.5h5.173l-.827,5.389h-4.346v13.032A18.649,18.649,0,0,0,566.684,1034.025Z"
+                    transform="translate(-529.387 -1015.379)"
+                    fill="#fff"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="social_media_icon">
+              <a href="#">
+                <svg
+                  id="logo-twitter"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="38.918"
+                  height="31.46"
+                  viewBox="0 0 38.918 31.46"
+                >
+                  <path
+                    id="Path_13"
+                    data-name="Path 13"
+                    d="M591.682,1020.071a17.767,17.767,0,0,1-4.623,1.3,7.8,7.8,0,0,0,3.487-4.376,17.555,17.555,0,0,1-5.109,1.944,8.087,8.087,0,0,0-5.837-2.513,7.962,7.962,0,0,0-7.947,7.947,6.366,6.366,0,0,0,.244,1.783,22.71,22.71,0,0,1-16.458-8.35,8.3,8.3,0,0,0-1.055,3.971,7.94,7.94,0,0,0,3.568,6.65,9.4,9.4,0,0,1-3.649-.974v.083a8.012,8.012,0,0,0,6.406,7.864,8.868,8.868,0,0,1-2.11.244,10.22,10.22,0,0,1-1.538-.164,7.937,7.937,0,0,0,7.458,5.514,16.215,16.215,0,0,1-9.891,3.4,13.541,13.541,0,0,1-1.866-.081,22.588,22.588,0,0,0,12.243,3.568c14.675,0,22.7-12.162,22.7-22.7v-1.055A14.538,14.538,0,0,0,591.682,1020.071Z"
+                    transform="translate(-552.764 -1016.423)"
+                    fill="#fff"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="social_media_icon">
+              <a href="#">
+                <svg
+                  id="logo-instagram"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="38.92"
+                  height="38.92"
+                  viewBox="0 0 38.92 38.92"
+                >
+                  <defs>
+                    <radialGradient
+                      id="radial-gradient"
+                      cx="0.133"
+                      cy="1.005"
+                      r="1.305"
+                      gradientTransform="translate(0)"
+                      gradientUnits="objectBoundingBox"
+                    >
+                      <stop offset="0.09" stop-color="#fa8f21" />
+                      <stop offset="0.78" stop-color="#d82d7e" />
+                    </radialGradient>
+                    <radialGradient
+                      id="radial-gradient-2"
+                      cx="0.606"
+                      cy="1.05"
+                      r="1.029"
+                      gradientTransform="translate(0)"
+                      gradientUnits="objectBoundingBox"
+                    >
+                      <stop
+                        offset="0.64"
+                        stop-color="#8c3aaa"
+                        stop-opacity="0"
+                      />
+                      <stop offset="1" stop-color="#8c3aaa" />
+                    </radialGradient>
+                  </defs>
+                  <path
+                    id="Path_849"
+                    data-name="Path 849"
+                    d="M12.975,19.46a6.487,6.487,0,1,1,6.486,6.487,6.487,6.487,0,0,1-6.486-6.487m-3.507,0a9.993,9.993,0,1,0,9.993-9.992A9.992,9.992,0,0,0,9.468,19.46M27.514,9.071A2.335,2.335,0,1,0,29.85,6.737h0a2.336,2.336,0,0,0-2.335,2.334M11.6,35.3a10.756,10.756,0,0,1-3.614-.669,6.048,6.048,0,0,1-2.238-1.456,6,6,0,0,1-1.456-2.237,10.745,10.745,0,0,1-.669-3.614c-.094-2.051-.113-2.667-.113-7.864s.02-5.811.113-7.864a10.826,10.826,0,0,1,.669-3.614A6.048,6.048,0,0,1,5.746,5.744,6,6,0,0,1,7.985,4.288,10.746,10.746,0,0,1,11.6,3.619c2.051-.094,2.668-.113,7.862-.113s5.811.02,7.864.113a10.827,10.827,0,0,1,3.614.669,6.029,6.029,0,0,1,2.238,1.456,6.029,6.029,0,0,1,1.456,2.238A10.745,10.745,0,0,1,35.3,11.6c.094,2.053.113,2.667.113,7.864s-.019,5.811-.113,7.864a10.8,10.8,0,0,1-.669,3.614,6.443,6.443,0,0,1-3.694,3.692,10.746,10.746,0,0,1-3.614.669c-2.051.094-2.668.113-7.864.113s-5.811-.019-7.862-.113M11.437.118a14.27,14.27,0,0,0-4.724.9A9.545,9.545,0,0,0,3.266,3.266,9.508,9.508,0,0,0,1.022,6.714a14.273,14.273,0,0,0-.9,4.723C.022,13.512,0,14.175,0,19.46s.022,5.948.118,8.023a14.272,14.272,0,0,0,.9,4.723,9.513,9.513,0,0,0,2.245,3.447A9.569,9.569,0,0,0,6.714,37.9a14.283,14.283,0,0,0,4.724.9c2.076.094,2.738.118,8.023.118s5.948-.022,8.023-.118a14.274,14.274,0,0,0,4.724-.9A9.95,9.95,0,0,0,37.9,32.206a14.233,14.233,0,0,0,.9-4.723c.094-2.076.116-2.738.116-8.023s-.022-5.948-.116-8.023a14.268,14.268,0,0,0-.9-4.723,9.57,9.57,0,0,0-2.245-3.447,9.523,9.523,0,0,0-3.446-2.245,14.252,14.252,0,0,0-4.724-.9C25.411.024,24.747,0,19.462,0s-5.949.022-8.025.118"
+                    fill="url(#radial-gradient)"
+                  />
+                  <path
+                    id="Path_850"
+                    data-name="Path 850"
+                    d="M12.975,19.46a6.487,6.487,0,1,1,6.486,6.487,6.487,6.487,0,0,1-6.486-6.487m-3.507,0a9.993,9.993,0,1,0,9.993-9.992A9.992,9.992,0,0,0,9.468,19.46M27.514,9.071A2.335,2.335,0,1,0,29.85,6.737h0a2.336,2.336,0,0,0-2.335,2.334M11.6,35.3a10.756,10.756,0,0,1-3.614-.669,6.048,6.048,0,0,1-2.238-1.456,6,6,0,0,1-1.456-2.237,10.745,10.745,0,0,1-.669-3.614c-.094-2.051-.113-2.667-.113-7.864s.02-5.811.113-7.864a10.826,10.826,0,0,1,.669-3.614A6.048,6.048,0,0,1,5.746,5.744,6,6,0,0,1,7.985,4.288,10.746,10.746,0,0,1,11.6,3.619c2.051-.094,2.668-.113,7.862-.113s5.811.02,7.864.113a10.827,10.827,0,0,1,3.614.669,6.029,6.029,0,0,1,2.238,1.456,6.029,6.029,0,0,1,1.456,2.238A10.745,10.745,0,0,1,35.3,11.6c.094,2.053.113,2.667.113,7.864s-.019,5.811-.113,7.864a10.8,10.8,0,0,1-.669,3.614,6.443,6.443,0,0,1-3.694,3.692,10.746,10.746,0,0,1-3.614.669c-2.051.094-2.668.113-7.864.113s-5.811-.019-7.862-.113M11.437.118a14.27,14.27,0,0,0-4.724.9A9.545,9.545,0,0,0,3.266,3.266,9.508,9.508,0,0,0,1.022,6.714a14.273,14.273,0,0,0-.9,4.723C.022,13.512,0,14.175,0,19.46s.022,5.948.118,8.023a14.272,14.272,0,0,0,.9,4.723,9.513,9.513,0,0,0,2.245,3.447A9.569,9.569,0,0,0,6.714,37.9a14.283,14.283,0,0,0,4.724.9c2.076.094,2.738.118,8.023.118s5.948-.022,8.023-.118a14.274,14.274,0,0,0,4.724-.9A9.949,9.949,0,0,0,37.9,32.206a14.233,14.233,0,0,0,.9-4.723c.094-2.076.116-2.738.116-8.023s-.022-5.948-.116-8.023a14.268,14.268,0,0,0-.9-4.723,9.57,9.57,0,0,0-2.245-3.447,9.523,9.523,0,0,0-3.446-2.245,14.252,14.252,0,0,0-4.724-.9C25.411.024,24.747,0,19.462,0s-5.949.022-8.025.118"
+                    fill="url(#radial-gradient-2)"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div id="webs_wrapper">
+        <div id="left_web">
+          <img src="./assets/Cobweb.svg" />
+        </div>
+        <div id="top_left_web">
+          <img src="./assets/Cobweb.svg" />
+        </div>
+        <div id="top_right_web">
+          <img src="./assets/Cobweb.svg" />
+        </div>
+        <div id="right_web">
+          <img src="./assets/Cobweb.svg" />
+        </div>
+      </div>
+      <div id="moon_wrapper">
+        <img id="moon" src="./assets/moon.png" />
+      </div>
+
+      <div id="fence_wrapper">
+        <img id="first_fence" class="fence" src="./assets/Fence.png" />
+
+        <img id="second_fence" class="fence" src="./assets/Fence.png" />
+      </div>
+    </div>
+    <script type="text/javascript" src="cocktails.js"></script>
+    <script defer type="text/javascript" src="app.js"></script>
+  </body>
+</html>
